@@ -247,6 +247,7 @@ public class BusinessBoard {
 		diceValue = d.getDiceValue();
 		computer = new Computer();
 		lblThis = computer.move(map, diceValue);
+		//git hub
 		setBoundsForComputer();
 		if (lblThis == lblIncomeTax) {
 			computerCurrentBalance = computer.getComputerCurrentBalance();
